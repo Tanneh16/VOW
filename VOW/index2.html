@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index2.css">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -21,56 +21,53 @@
   <body>
     <!-- start nav -->
     <nav class="navbar navbar-inverse navbar-static-top">
-      <!-- <form class="navbar-form navbar-right" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Search</button>
-      </form> -->
-      <h2>VeteranOverWatch (VOW)</h2>
-      <ul class="links">
-        <li class="index"><a href="index.html">Home</a></li>
-        <li class="hmls"><a href="homeless.html" target="_blank">Homeless Resources</a></li>
-        <li class="navfit"><a href="fitness.html" target="_blank" >Fitness Resources</a></li>
-        <li class="employ"><a href="employment.html" target="_blank">Employment Resources</a></li>
-      </ul> 
+      <div class="ptext">
+        <span class="border trans">
+          <!-- <h2>VeteranOverWatch (VOW)</h2> -->
+        <ul class="links">
+          <li class="index"><a class="linkdark" href="index2.html"><strong>Home</strong></a></li>
+          <li class="hmls"><a class="linkdark" href="homeless.html" target="_blank">Homeless Resources</a></li>
+          <li class="navfit"><a class="linkdark" href="fitness.html" target="_blank" >Fitness Resources</a></li>
+          <li class="employ"><a class="linkdark" href="employment.html" target="_blank">Employment Resources</a></li>
+        </ul> 
+        </span>
+         
+      </div>
+     
     </nav>
 <!-- end nav -->
 <!-- start main -->
     <main>
-      <div class="container">
-        <div class="jumbotron">
-            <h1>VeteranOverWatch<br></h1>
-            <h2>We vow to lead and motivate each other to a life of wellness.</h2>
-            <p><a class="btn btn-primary btn-lg" href="about.html" target="_blank" role="button">Who We Are</a></p>
-        </div>
+      <div class="backimg">
+        <h1 class="vow"><strong>VeteranOverWatch</strong></h1>
+        <p><a id="about" href="about.html" target="_blank" class="btn btn-primary" role="button">About Us</a> </p>
       </div>
       <div class="row">
         <div class="col-sm-4 col-md-4">
-          <div class="thumbnail">
+          <div id="thumbnail" class="thumbnail">
             <img src="https://images.unsplash.com/photo-1526168637801-e9f490d6bc04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=966&q=80" alt="homeless">
             <div class="caption">
-              <h3>Homeless Resources</h3>
+              <h3 class="homeless">Homeless Resources</h3>
               <p class="homeless">Local Homeless Resources For Veterans</p>
               <p><a href="#" class="btn btn-primary" role="button">Learn More</a> </p>
             </div>
           </div>
         </div>
         <div class="col-sm-4 col-md-4">
-          <div class="thumbnail">
+          <div id="thumbnail" class="thumbnail">
             <img src="https://images.unsplash.com/photo-1567002948233-3a51e5381624?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" alt="fitness">
             <div class="caption">
-              <h3>Fitness Resources</h3>
+              <h3 class="fitness">Fitness Resources</h3>
               <p class="fitness">Local Fitness Resources For Veterans</p>
               <p><a href="fitness.html" target="_blank" class="btn btn-primary" role="button">Learn More</a> </p>
             </div>
           </div>
         </div>
         <div class="col-sm-4 col-md-4">
-          <div class="thumbnail">
-            <img class="employment" src="https://images.unsplash.com/photo-1473090928358-00fcead4f08c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=984&q=80">
+          <div id="thumbnail" class="thumbnail">
+            <img src="https://images.unsplash.com/photo-1473090928358-00fcead4f08c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=984&q=80">
             <div class="caption">
-              <h3>Employment Resources</h3>
+              <h3 class="employment">Employment Resources</h3>
               <p class="employment">Local Employment Resources For Veterans</p>
               <p><a href="#" class="btn btn-primary" role="button">Learn More</a> </p>
             </div>
@@ -82,8 +79,8 @@
           <h1 class="pledge">The Spartan Pledge</h1>
           <h3 class="pledge">"I will not take my own life by my own hand until I talk to my battle buddy first.<br>My mission is to find a mission to help my warfighter family."<br>
           <h3>
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EuCyZmCESdQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <h3>Save Yourself +1<br>Take the Spartan Pledge Today!<br><br><a class="btn btn-primary btn-lg" href="https://descendantsofsparta.com/homepage/" target="_blank" role="button">Learn more</a>
+          <iframe id="video" class="embed-responsive-item" src="https://www.youtube.com/embed/EuCyZmCESdQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h3 class="pledge">Save Yourself +1<br>Take the Spartan Pledge Today!<br><br><a class="btn btn-primary btn-lg" href="https://descendantsofsparta.com/homepage/" target="_blank" role="button">Learn more</a>
           </h3><br>        
         </div>
           <!-- <video id="main-video" loop="true" autoplay="true" muted="true"
@@ -112,8 +109,12 @@
 <!-- end main --> 
 <!-- start footer -->
 <footer>
-  <div class="well">
+  <div id="well" class="well">
     <h4>© Copyright. All Rights Reserved</h4>
+    <div>
+      <!-- back to top button -->
+      <a id="backtotop" class="btn btn-primary btn-lg" href="index2.html" role="button">^</a>
+    </div>
   </div>
 </footer>   
 
@@ -125,6 +126,3 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </body>
     </html>
-
-
-
