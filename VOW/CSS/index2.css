@@ -3,16 +3,24 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    margin: 0;
+    padding: 0;
     
 }   
 
 nav {
+    color: white;
     /* background-image: url("https://cdn.pixabay.com/photo/2016/03/07/15/15/parachute-1242426_1280.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    position: sticky;
     background-color: rgb(0, 0, 0);
     padding-top: 15px;
+    
+}
+
+.logo {
+    font-size: 20px;
 }
 
 li {
@@ -33,21 +41,19 @@ li {
     
 }
 
-/* a {
-    color: black;
-    text-shadow: 1px 1px rgb(192, 189, 189);
-  } */
   
-
+/* unvisited link */
 a:link {
     color: white;
-    text-shadow: rgba(128, 128, 128, 0.315);
+    text-shadow: 2px 2px rgba(128, 128, 128, 0.315);
     font-size: 15px;
     text-decoration: none;
   }
 
+  /* mouse over link */
   a:hover {
-    color: white;
+    color: rgb(141, 231, 247);
+    text-decoration: none;
   }
 
 /* .links {
@@ -74,20 +80,35 @@ h1 {
 
 .vow {
     color: rgb(241, 238, 238);
-    text-shadow: 2px 3px black;
-    font-size: 60px;
+    text-shadow: 2px 2px black;
+    font-size: 70px;
     margin-top: 80px;
     border-color: 5px black; 
 }
 
+/* about section */
+.who {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 60px;
+    text-align: center;
+}
+/* about section */
 #about {
+    margin-top: 40px;
     margin-left: 600px;
+}
+
+.row2 {
+    margin-top: -25px;
+    margin-left: 150px;
 }
 
 #thumbnail {
     background-color: rgba(0, 0, 0, 0.692); 
     border-color: black;
     border-radius: 10px;
+    
 }
 
 .fitness, .homeless, .employment  {
@@ -103,13 +124,27 @@ h1 {
     color: white;
 }
 
-.thumbnail {
+.captionabout {
+    padding-top: -80px;
+    color: white;
+    text-shadow: black;
+}
+
+.thumbnail, .thumbnail2 {
     text-align: center;
+    padding: 20px;
+}
+
+/* about section */
+.thumbnail2 {
+    padding: -20px;
 }
 
 .col-sm-4  {
-    margin-top: 200px;
+    margin-top: 150px;
+    margin-left: 90px;
 }
+
 
 .jumbotron-two {
     background-color: rgba(0, 0, 0, 0.404);
@@ -119,7 +154,7 @@ h1 {
 
 .pledge {
     color: rgb(241, 238, 238);
-    text-shadow: 2px 3px black;
+    text-shadow: 2px 2px black;
     text-align: center;
     padding-top: 20px;
 }
@@ -129,8 +164,20 @@ h1 {
     border-radius: 10px;
     margin-left: 400px;
 }
+ 
+#backtotop {
+    /* background-color: rgba(71, 71, 71, 0.274); */
+    font-size: 15px;
+    padding-right: -10px;
+    margin-top: 10px;
+  } 
 
-
+  /* about section */
+  #backtotopabout {
+      margin-left: 660px;
+    margin-top: -65px;
+    font-size: 15px;  
+  }
 
 footer {
     margin-top: 50px;  
@@ -140,12 +187,24 @@ footer {
     color: white;
     text-align: center;
     vertical-align: middle;
-    text-shadow: 2px 3px black;
+    text-shadow: 2px 2px black;
     height: 75px;
-    /* background-color: black; */
-    /* background-image: url("https://images.unsplash.com/photo-1542122677719-3a7a95111019?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1085&q=80"); */
-    /* background-size: cover;  */
     padding: 40px; 
+}
+
+.wellabout {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 2px 2px black;
+    height: 75px;
+    
+}
+
+#wellabout {
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 800px;
+    border: none;
 }
 
 #well {
